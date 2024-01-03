@@ -75,14 +75,7 @@ const Navbar = () => {
                 <span>Home</span>
               </a>
             </li>
-            <li role="none" className="flex items-stretch">
-              <a
-                className="flex items-center gap-2 py-4 text-emerald-500 transition-colors duration-300 hover:text-emerald-600 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                href="javascript:void(0)"
-              >
-                <span>Farm Tales</span>
-              </a>
-            </li>
+           
             <li role="none" className="flex items-stretch">
               <a
                 role="menuitem"

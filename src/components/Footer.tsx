@@ -1,4 +1,6 @@
 import IMG from '../assets/logo.png';
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoIosMail} from "react-icons/io";
 
 const Footer = () => {
   return (
@@ -31,14 +33,8 @@ const Footer = () => {
                   About Freshway Group
                 </h3>
                 <ul>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Farm Tales
-                    </a>
-                  </li>
+                  
+
                   <li className="mb-2 leading-6">
                     <a
                       href="javascript:void(0)"
@@ -70,22 +66,22 @@ const Footer = () => {
                 aria-labelledby="footer-docs-5-logo"
               >
                 <h3
-                  className="mb-6 text-base font-medium text-slate-700"
+                  className="mb-1 text-base font-medium text-slate-700"
                   id="footer-docs-5-logo"
                 >
-                  Head Office
+                 Corporate Head Office
                 </h3>
                     <a
                       href=""
                       className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
                     >
-                      Niketon
+                      House-3, Road-7, Block-C, Niketon Housing Society, Gulshan-1,Dhaka 1212
                     </a>
                   
                  
 
                 <h3
-                  className="mb-6 text-base font-medium text-slate-700 pt-5"
+                  className="mb-1 text-base font-medium text-slate-700 pt-5"
                   id="footer-docs-5-logo"
                 >
                  Factory
@@ -95,7 +91,7 @@ const Footer = () => {
                       href="javascript:void(0)"
                       className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
                     >
-                      Joypurhat
+                      BSCIC Industrial Area, Joypurhat
                     </a>
                   </div>
                  
@@ -105,7 +101,7 @@ const Footer = () => {
                 aria-labelledby="footer-about-5-logo"
               >
                 <h3
-                  className="mb-6 text-base font-medium text-slate-700"
+                  className="mb-4 text-base font-medium text-slate-700"
                   id="footer-about-5-logo"
                 >
                   Contact Us
@@ -114,18 +110,18 @@ const Footer = () => {
                   <li className="mb-2 leading-6">
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
+                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 flex"
                     >
-                      019*********
+                    <FaPhoneAlt size='18'  className='pt-1' />  +8801717825482
                     </a>
                   </li>
                  
-                  <li className="mb-2 leading-6">
+                  <li className="mb-2 leading-6 ">
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
+                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 flex"
                     >
-                      Freshway@gmail.com
+                    <IoIosMail size='20'  className='pt-1'/>  obaidullah.abm@gmail.com
                     </a>
                   </li>
                   
