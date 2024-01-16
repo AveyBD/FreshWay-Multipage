@@ -11,7 +11,7 @@ const SupplyChain = () => {
     <>
     {/*<!-- Component: Four columns even layout --> */}
     <section>
-        <h1 className='text-center py-9 text-4xl font-semibold'>The Freshway Supply Chain</h1>
+        <h1 className='text-center py-9 text-4xl font-semibold'>আমাদের প্রজেক্ট পরিকল্পনা</h1>
       <div className="container px-6 m-auto">
         <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
           <div className="col-span-4 lg:col-span-3">{/*<!-- Component: E-commerce card --> */}

@@ -5,7 +5,7 @@ const Impact = () => {
   return (
     <div >
         <section className='mt-12 pb-8 bg-lime-600'>
-            <h1 className='py-8 text-4xl text-center font-bold text-white'> Our Impact</h1>
+            <h1 className='py-8 text-4xl text-center font-bold text-white'>পরিবেশে আমাদের প্রভাব</h1>
         <div className="container px-6 m-auto ">
           <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
             <div className="col-span-4"><div className="overflow-hidden rounded bg-white text-slate-500 shadow-md shadow-slate-200">

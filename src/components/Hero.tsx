@@ -1,10 +1,9 @@
 import React, { useEffect } from "react"
 import Glide from "@glidejs/glide"
 
-import IMG1 from "../assets/001.jpg";
-import IMG2 from "../assets/002.jpg";
-import IMG3 from "../assets/hen2.jpg";
-import IMG4 from "../assets/header.png";
+import IMG1 from "../assets/header.png";
+import IMG2 from "../assets/1.jpg";
+import IMG3 from "../assets/15.jpg";
 
 export const Hero = () => {
 
@@ -48,11 +47,6 @@ export const Hero = () => {
           <li>
             <img
               src={IMG3}
-            />
-          </li>
-          <li>
-            <img
-              src={IMG4}
             />
           </li>
         </ul>

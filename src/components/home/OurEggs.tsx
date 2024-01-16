@@ -8,8 +8,8 @@ const OurEggs = () => {
   return (
     <div className='py-16'>
         <h1 className='text-center text-4xl pt-2 font-bold '> 
-        How our eggs are better</h1>
-        <div className='flex justify-center items-center gap-4 py-5'>
+        কেন আমাদের উৎপাদিত ডিম অন্যদের থেকে ভালো ?</h1>
+        <div className='flex justify-center items-center gap-4 pt-4 pb-5'>
              <hr className="px-12 border-t-4 border-amber-500" />
             <img src={IMG1} className='w-6'/>
               <hr className="px-12 border-t-4 border-amber-500" />
@@ -21,10 +21,10 @@ const OurEggs = () => {
             <div className="overflow-hidden bg-white rounded shadow-md text-slate-500 shadow-slate-200">
   
  
-    <img src={IMG2} alt="card image" className="aspect-video w-full" />
+    <img src={IMG2} alt="card image" className="aspect-video w-full  hover:border-amber-500 hover:border-8" />
   <div className="p-6">
     <header>
-      <h3 className="text-lg font-medium text-slate-700">100% Bio Safe</h3>
+      <h3 className="text-lg font-medium text-center text-slate-700">১০০% জীবাণুমুক্ত</h3>
      
     </header>
   </div>
@@ -34,12 +34,12 @@ const OurEggs = () => {
             <div className="overflow-hidden bg-white rounded shadow-md text-slate-500 shadow-slate-200">
   
   <figure>
-    <img src={IMG3} alt="card image" className="aspect-video w-full" />
+    <img src={IMG3} alt="card image" className="aspect-video w-full hover:border-amber-500 hover:border-8" />
   </figure>
   
   <div className="p-6">
     <header>
-      <h3 className="text-lg font-medium text-slate-700">Antibiotic Free</h3>
+      <h3 className="text-lg font-medium text-center text-slate-700">অ্যান্টিবায়োটিক মুক্ত</h3>
       
     </header>
   </div>
@@ -49,12 +49,12 @@ const OurEggs = () => {
             <div className="overflow-hidden bg-white rounded shadow-md text-slate-500 shadow-slate-200">
   
   <figure>
-    <img src={IMG4} alt="card image" className="aspect-video w-full" />
+    <img src={IMG4} alt="card image" className="aspect-video w-full hover:border-amber-500 hover:border-8" />
   </figure>
   
   <div className="p-6">
     <header>
-      <h3 className="text-lg font-medium text-slate-700">Fully Automatic</h3>
+      <h3 className="text-lg font-medium text-center text-slate-700">সূম্পর্ণ স্বয়ংক্রিয়</h3>
 
     </header>
   </div>
