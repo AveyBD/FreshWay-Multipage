@@ -1,9 +1,9 @@
 import React, { useEffect } from "react"
 import Glide from "@glidejs/glide"
 
-import IMG1 from "../assets/header.png";
-import IMG2 from "../assets/1.jpg";
-import IMG3 from "../assets/15.jpg";
+import IMG1 from "../assets/hero2.png";
+import IMG2 from "../assets/hero3.png";
+import IMG3 from "../assets/hero5.png";
 
 export const Hero = () => {
 
@@ -35,9 +35,23 @@ export const Hero = () => {
       <div className="overflow-hidden" data-glide-el="track">
         <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
           <li>
-            <img
-              src={IMG1}
-            />
+            <div className='w-full h-[100vh]  text-white'>
+              < img src={IMG1} alt='/' className='w-full h-full object-cover from-black' />
+
+              <div className='max-w-[1140px] m-auto'>
+                  <div className='absolute top-[40%] w-full md:-[50%] max-w-[600px] h-full flex flex-col p-4'>
+                      <div className='flex gap-3'>
+                          <hr className=' '/>
+                          <p className='text-xl'></p>
+                      </div>
+                      <h1 className='font-bold text-4xl '></h1>
+                      <h1 className='font-bold text-4xl '> </h1>
+                      <p className='py-3'>
+                         
+                      </p>
+                  </div>
+              </div>
+          </div>
           </li>
           <li>
             <img
