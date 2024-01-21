@@ -25,12 +25,12 @@ const SupplyChain = () => {
                         <div className='pr-16 text-3xl font-bold flex flex-col gap-4 font-saira text-white'>
                             <div className='flex gap-4 pb-4 ' >
                             <img src={Line} className='w-14 h-4 pt-2' />
-                                <p className='font-saira text-lg'>
+                                <p className='font-saira text-4xl'>
                                 পণ্য এবং সেবা        
                                 </p>
                         </div>
-                            <span className=''>আমরা যা যা নিয়ে  </span>
-                            <span>কাজ করি</span>
+                            {/* <span className=''>আমরা যা যা নিয়ে  </span>
+                            <span>কাজ করি</span> */}
                          </div>
                             <img src={Line2} className='w-[800px]'/>
                         </div>
