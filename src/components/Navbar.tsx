@@ -8,15 +8,15 @@ const Navbar = () => {
 
   return (
     <>
-   <header className=" w-full min-h-[50px] flex justify-between gap-20 items-center absolute z-10 text-green-700 bg-gray-100/90">
+   <header className=" w-full min-h-[50px] flex justify-between gap-20 absolute z-10 text-green-700 bg-gray-100/90">
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
           <nav
-            className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"
+            className="flex justify-between h-[5.5rem] items-stretch  font-medium text-slate-700"
 
           >
             {/*      <!--  logo --> */}
             <a
-              className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1 "
+              className="flex   whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1 "
             >
               <img
                 width="200"
@@ -56,7 +56,7 @@ const Navbar = () => {
             </button>
             {/*      <!-- Navigation links --> */}
             <ul
-              className={`absolute top-0 left-0 z-[-1] h-[28.5rem] w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg-[#343438]  px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${
+              className={`absolute top-0 left-0 z-[-1] h-[28.5rem] w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg-gray-100  px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${
                 isToggleOpen
                   ? "visible opacity-100 backdrop-blur-sm"
                   : "invisible opacity-0"
@@ -76,7 +76,7 @@ const Navbar = () => {
                   className="flex items-center gap-2 py-4 transition-colors duration-300   focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
-                  <span>Plant Based Food</span>
+                  <span>About </span>
                 </a>
               </li>
               <li role="none" className="flex items-stretch font-bold text-green-800">
@@ -85,7 +85,7 @@ const Navbar = () => {
                   className="flex items-center gap-2 py-4 transition-colors duration-300    focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
-                  <span>Technology</span>
+                  <span>Products</span>
                 </a>
               </li>
               <li role="none" className="flex items-stretch font-bold text-green-800">
@@ -94,20 +94,20 @@ const Navbar = () => {
                   className="flex items-center gap-2 py-4 transition-colors duration-300    focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
-                  <span>About Us</span>
+                  <span>Media and contents</span>
+                </a>
+              </li>
+              <li role="none" className="flex items-stretch font-bold text-green-800">
+                <a
+                  aria-haspopup="false"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300    focus:outline-none focus-visible:outline-none lg:px-8"
+                  href="javascript:void(0)"
+                >
+                  <span>Contact</span>
                 </a>
               </li>
               
-              <li role="none" className="flex items-stretch font-bold text-green-800">
-              <MdOutlineWifiCalling3  className="text-green-600 bg-white rounded-full p-2 mr-2 mt-6" size={40}/>
-                <a
-                  className="flex flex-col-reverse items-center gap-1 py-4 transition-colors duration-300    focus:outline-none focus-visible:outline-none "
-                  href="javascript:void(0)"
-                >
-                  <span>Call Anytime</span>
-                  <span>+0987654321</span>
-                </a>
-              </li>
+            
             </ul>
           </nav>
         </div>
