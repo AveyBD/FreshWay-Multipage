@@ -1,4 +1,3 @@
-import React from 'react'
 import IMG1 from '../assets/Antibiotic-Free Egg.jpg'
 import IMG2 from '../assets/Free-Range Egg.jpg'
 import IMG3 from '../assets/Poultry Feed.jpg'

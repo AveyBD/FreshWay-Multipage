@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import { useEffect } from "react"
 import Glide from "@glidejs/glide"
 
 import IMG1 from "../assets/hero2.png";
@@ -8,7 +8,8 @@ import IMG3 from "../assets/hero5.png";
 export const Hero = () => {
 
   useEffect(() => {
-    const slider = new Glide(".glide-01", {
+    // Ensure 'Glide' is used as a type from TypeScript declarations
+    const slider = new (Glide as unknown as typeof Glide)(".glide-01", {
       type: "slider",
       focusAt: "center",
       perView: 1,
@@ -20,12 +21,12 @@ export const Hero = () => {
           active: "[&>*]:bg-wuiSlate-700",
         },
       },
-    }).mount()
-
+    }).mount();
+  
     return () => {
-      slider.destroy()
-    }
-  }, [])
+      slider.destroy();
+    };
+  }, []);
 
   return (
     <>

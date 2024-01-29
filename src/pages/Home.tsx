@@ -1,5 +1,5 @@
 import { Hero } from "../components/Hero"
-import Impact from "../components/home/Impact"
+// import Impact from "../components/home/Impact"
 import OurEggs from "../components/home/OurEggs"
 import SupplyChain from "../components/home/SupplyChain"
 

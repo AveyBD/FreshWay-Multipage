@@ -1,4 +1,3 @@
-import React from 'react'
 import IMG1 from "../../assets/001.jpg";
 
 const Impact = () => {

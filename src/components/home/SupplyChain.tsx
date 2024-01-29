@@ -1,12 +1,5 @@
-import React from 'react'
-import IMG1 from "../../assets/2.jpg";
-import IMG2 from "../../assets/2.jpg";
-import IMG3 from "../../assets/3.jpg";
 import Line from "../../assets/line.png"
-import Line1 from "../../assets/line4.png"
 import Line2 from "../../assets/line5.png"
-import IMG4 from "../../assets/header.png";
-
 import { PiListMagnifyingGlassFill } from "react-icons/pi";
 import { MdHealthAndSafety } from "react-icons/md";
 import { GiRoastChicken, GiChicken } from "react-icons/gi";

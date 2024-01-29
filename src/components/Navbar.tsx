@@ -1,6 +1,6 @@
-import React, { useState } from "react"
+import { Link } from "react-router-dom";
+import { useState } from "react"
 import logo from "../assets/logo.png"
-import { MdOutlineWifiCalling3  } from "react-icons/md";
 
 const Navbar = () => {
 
@@ -63,48 +63,43 @@ const Navbar = () => {
               }`}
             >
               <li role="none" className="flex items-stretch font-bold text-green-800">
-                <a
+              <Link to="/"
                   className="flex items-center gap-2 py-4 transition-colors duration-300    focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
                 >
                   <span>Home</span>
-                </a>
+                </Link>
               </li>
               <li role="none" className="flex items-stretch font-bold text-green-800">
-                <a
+              <Link to="/aboutus"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300   focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
                 >
                   <span>About </span>
-                </a>
+                </Link>
               </li>
               <li role="none" className="flex items-stretch font-bold text-green-800">
-                <a
+              <Link to="/product"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300    focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
                 >
                   <span>Products</span>
-                </a>
+                </Link>
               </li>
               <li role="none" className="flex items-stretch font-bold text-green-800">
-                <a
+              <Link to="/"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300    focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
                 >
                   <span>Media and contents</span>
-                </a>
+                </Link>
               </li>
               <li role="none" className="flex items-stretch font-bold text-green-800">
-                <a
+              <Link to="/"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300    focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
                 >
                   <span>Contact</span>
-                </a>
+                </Link>
               </li>
               
             
