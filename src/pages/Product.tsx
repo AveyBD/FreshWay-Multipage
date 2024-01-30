@@ -8,7 +8,7 @@ import IMG7 from '../assets/DOC.jpg'
 
 const Product = () => {
   return (
-    <div className='pt-28 pb-5 flex flex-col gap-5'>
+    <div className=' pt-28 pb-5 flex flex-col gap-5 '>
 
 
           {/* 1 */}
