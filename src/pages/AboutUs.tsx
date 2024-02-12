@@ -1,4 +1,6 @@
-import Img1 from "../assets/002.jpg"
+import Img1 from "../assets/hero1.jpg"
+import Img2 from "../assets/002.jpg"
+import Img3 from "../assets/Free-Range Egg.jpg"
 
 const AboutUs = () => {
   return (
@@ -19,7 +21,7 @@ const AboutUs = () => {
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
-                      src={Img1}
+                      src={Img2}
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -28,7 +30,7 @@ const AboutUs = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
                     <img
-                      src={Img1}
+                      src={Img3}
                       alt=""
                       className="w-full rounded-2xl"
                     />

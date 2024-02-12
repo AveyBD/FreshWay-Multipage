@@ -6,9 +6,9 @@ import IMG1 from "../../assets/egg.png";
 const OurEggs = () => {
   return (
     <div className="py-16">
-      <h1 className="text-center text-3xl pt-2 font-bold ">
+      {/* <h1 className="text-center text-3xl pt-2 font-bold ">
         কেন আমাদের উৎপাদিত ডিম অন্যদের থেকে উন্নতমানের{" "}
-      </h1>
+      </h1> */}
       <div className="flex justify-center items-center gap-4 pt-4 pb-5">
         <hr className="px-12 border-t-4 border-amber-500" />
         <img src={IMG1} className="w-6" />

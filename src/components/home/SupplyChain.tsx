@@ -1,5 +1,5 @@
-import Line from "../../assets/line.png"
-import Line2 from "../../assets/line5.png"
+
+
 import { PiListMagnifyingGlassFill } from "react-icons/pi";
 import { MdHealthAndSafety } from "react-icons/md";
 import { GiRoastChicken, GiChicken } from "react-icons/gi";
@@ -14,7 +14,7 @@ const SupplyChain = () => {
                             <div className=" mx-auto max-w-7xl sm:px-6 lg:px-8 relative">
                 <div className='  '>
 
-                    <div className='flex flex-row-reverse justify-between'>
+                    {/* <div className='flex flex-row-reverse justify-between'>
                         <div className='pr-16 text-3xl font-bold flex flex-col gap-4 font-saira text-white'>
                             <div className='flex gap-4 pb-4 ' >
                             <img src={Line} className='w-14 h-4 pt-2' />
@@ -22,12 +22,10 @@ const SupplyChain = () => {
                                 পণ্য এবং সেবা        
                                 </p>
                         </div>
-                            {/* <span className=''>আমরা যা যা নিয়ে  </span>
-                            <span>কাজ করি</span> */}
                          </div>
                             <img src={Line2} className='w-[800px]'/>
-                        </div>
-                    </div>
+                        </div> */}
+            </div>
 
 
 
@@ -52,7 +50,7 @@ const SupplyChain = () => {
 
                         <h3
                             className="mt-4 sm:mt-6 text-xl  leading-tight text-neutral-200 dark:text-white md:mt-10">
-                            পর্যবেক্ষণাধীনে এবং এন্টিবায়োটিক ফ্রি  ডিম
+                            ট্রেসেবল  এবং এন্টিবায়োটিক ফ্রি চিকেন
                         </h3>
                        
                     </div>
@@ -94,7 +92,7 @@ const SupplyChain = () => {
 
                         <h3
                             className="mt-4 sm:mt-6 text-xl  leading-tight text-neutral-200 dark:text-white md:mt-10">
-                            পোল্ট্রি খাদ্য
+                            পোল্ট্রি ফিড
                         </h3>
                        
                     </div>

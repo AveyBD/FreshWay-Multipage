@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import Glide from "@glidejs/glide"
 
-import IMG1 from "../assets/hero2.png";
+import IMG1 from "../assets/Free-Range Egg.jpg";
 import IMG2 from "../assets/hero3.png";
 import IMG3 from "../assets/hero5.png";
 
@@ -36,8 +36,8 @@ export const Hero = () => {
       <div className="overflow-hidden" data-glide-el="track">
         <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
           <li>
-            <div className='w-full h-[100vh]  text-white'>
-              < img src={IMG1} alt='/' className='w-full h-full object-cover from-black' />
+            <div className='w-full h-full  text-white'>
+              < img src={IMG2} alt='/' className='w-full h-full object-cover from-black' />
 
               <div className='max-w-[1140px] m-auto'>
                   <div className='absolute top-[40%] w-full md:-[50%] max-w-[600px] h-full flex flex-col p-4'>
@@ -56,7 +56,7 @@ export const Hero = () => {
           </li>
           <li>
             <img
-             src={IMG2}
+             src={IMG1}
             />
           </li>
           <li>
